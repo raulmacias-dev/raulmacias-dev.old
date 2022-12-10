@@ -1,69 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <title>Página Web Básica con Bootstrap 3</title>
 
-    <link rel="stylesheet" href="style.css"/>
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+  <script   src="https://code.jquery.com/jquery-3.6.1.min.js"   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="   crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" ></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-
-    <div id="root">
-      <head>
-        <nav class="navbar">
-          <div><img src="https://avatars.githubusercontent.com/u/7271620?s=400&u=3d451cfda9b4c6357acb62c9928c5f9cf7cd7ddd&v=4"
-            alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
-            style="width: 150px; z-index: 1"></div>
-          <div>
-            <ol>
-              <li><a href="/#about">Acerca de</a></li>
-              <li><a href="/#experience">Expeciencia</a></li>
-              <li><a href="/#work">Trabajo</a></li>
-              <li><a href="/#contact">Contacto</a></li>
-            </ol>
-          </div>
-        </nav>
-      </head>
-
-
-      <div orientation="left">
-        <ul>
-          <li>
-            <a href="https://github.com/raulmacias-dev" aria-label="GitHub" target="_blank" rel="noreferrer">
-            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
-              <title>GitHub</title>
-              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li><li><a href="https://www.instagram.com/bchiang7" aria-label="Instagram" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li><li><a href="https://twitter.com/bchiang7" aria-label="Twitter" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><title>Twitter</title><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li><li><a href="https://www.linkedin.com/in/bchiang7" aria-label="Linkedin" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li><li><a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen"><title>CodePen</title><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line>
-            </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div orientation="right">
-        <a href="mailto:raul.ma.tr@gmail.com">raul.ma.tr@gmail.com</a>
-      </div>
+<div class="head">
+    <div class="name">Raúl<span>Macías</span>
     </div>
-    
-    <div id="content">
-      <section>
-        <h2 id="name">Hola mi nombre es Raúl Macías</h2>
-      </section>
-      <section id="about">
-        <h2>Acerca de</h2>
-      </section>
-      <section id="experience">
-        <h2>Experiancia</h2>
-      </section>
-      <section id="work">
-        <h2>Trabajo</h2>
-      </section>
-      <section id="contact">
-        <h2>Contacto</h2>
-      </section>
+    <div class="sub-name">developer</div>
+    <div class="down"></div>
+</div>
+<div class="content-wrap">
+    <div class="sec intro">
+        <div class="text-contain">
+            <div class="text">
+                <h2>Soy un desarrollador</h2>
+                <h3>Backend y Front-End</h3>
+                <h5 id="bot-h5"><span>y esto es lo que hago</span></h5>
+            </div>
+            <!--<div class="pg-btn begin">
+                Comienza
+            </div>
+          -->
+        </div>
     </div>
+</div>
+<div class="side sec-A">
+    <div class="desc">
+        <h1>Backend</h1>
+    </div>
+    <div class="sub-btn front-btn">
+    Frontend
+    </div>
+</div>
+<div class="side sec-B">
+    <div class="desc">
+        <h1>Frontend</h1>
+    </div>
+    <div class="sub-btn back-btn">
+      Backend
+    </div>
+</div>
 </body>
 </html>

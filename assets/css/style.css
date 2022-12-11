@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Lato";
+  background: transparent;
+  filter: invert(0);
+}
+
+.head {
+  color: #eaeaea;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3rem;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 1111;
+  text-align: center;
+  line-height: 25px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.head-hide {
+  height: 0vh;
+  opacity: 0;
+}
+
+.head span {
+  font-weight: 900;
+}
+
+.name {
+  width: 500px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -30px;
+}
+
+.sub-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 7px;
+  font-weight: 300;
+  margin-left: 23px;
+  color: #198754;
+  font-size: 1.5rem;
+  overflow: hidden;
+  font-size: 0.7em;
+  font-family: monospace;
+  width: 10ch;
+  border-right: 2px solid #eaeaea;
+  -webkit-animation: typing 2s steps(10), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(10), blink 0.5s infinite step-end alternate;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.intro {
+  background: #222;
+  color: #eaeaea;
+  text-align: center;
+  display: table;
+  text-transform: uppercase;
+}
+
+.intro .text-contain {
+  position: absolute;
+  z-index: 1;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.intro .text {
+  padding-top: 30px;
+  text-align: center;
+  width: 470px;
+  margin: 0 auto;
+}
+
+.text h2 {
+  vertical-align: middle;
+  font-size: 2rem;
+  margin: -5px 0;
+}
+
+.text h3 {
+  font-weight: 300;
+  color: #198754;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  margin: 0 0 0px 0;
+}
+
+#bot-h5 {
+  color: #eaeaea;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin-top: 30px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=style.css.map */

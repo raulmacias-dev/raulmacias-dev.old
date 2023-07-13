@@ -31,6 +31,7 @@
     white-space: nowrap;
     position: relative;
     transform: rotate( -90deg);
+    font-family: Roboto;
 }
 
 .stick_follow_icon ul li {

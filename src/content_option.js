@@ -16,7 +16,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "About me",
+    title: "Acerca de mí",
     aboutme: "Como desarrollador de aplicaciones web y móviles, mi enfoque es crear soluciones tecnológicas innovadoras y de alta calidad para mis clientes. Con experiencia en el desarrollo de aplicaciones personalizadas para diversos sectores, desde pequeñas empresas hasta grandes corporaciones, mi objetivo es ayudar a mis clientes a alcanzar sus objetivos de negocio a través de la tecnología. Me enorgullezco de mi capacidad para entender las necesidades de mis clientes y traducirlas en soluciones efectivas, adaptándome a sus requisitos técnicos y de presupuesto. Si buscas un desarrollador apasionado, creativo y comprometido con el éxito de tus proyectos, ¡no dudes en ponerte en contacto conmigo!",
 };
 const worktimeline = [{

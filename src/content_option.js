@@ -1,6 +1,6 @@
-const logotext = "raulmacias-dev";
+const logotext = "{:;} raulmacias-dev";
 const meta = {
-    title: "raulmacias-dev",
+    title: "{:;} raulmacias-dev",
     description: "I’m raulmacias developer _ Full stack developer,currently working in Spain",
 };
 
